@@ -12,7 +12,7 @@ import (
 )
 
 func usage() {
-	fmt.Fprintf(os.Stderr, "Usage: %s [OPTIONS]\n", os.Args[0])
+	fmt.Fprintf(os.Stderr, "By T00ls.Com\nUsage: %s [OPTIONS]\n", os.Args[0])
 	fmt.Fprintln(os.Stderr, "Options:")
 	flag.PrintDefaults()
 	os.Exit(1)
